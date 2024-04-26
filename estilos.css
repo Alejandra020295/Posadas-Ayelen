@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*-------Modelado Header---------*/
+
+body{
+    background-color: #141414;
+    font-family: "Nunito", sans-serif;
+}
+
+header{
+    background-color: #9f3647;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #141414;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    #banner{
+        height: 60vh;
+    }
+
+    .contenido-banner .Titulo-Principal{
+        font-size: 2.5rem;
+    }
+
+    .contenido-banner .Sub-Titulo{
+        font-size: 1.5rem;
+    }
+
+    .contenido-banner .Boton-Registrarse{
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+
+}
+
+nav a.activo, nav a:hover{
+    background: #802534;
+    transition: transform 0.3s, box-shasow 0.3s;
+}
+
+#Tendencias{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------Seccion Portada----------*/
+
+#banner{
+    font-size: 16px;
+    min-width: 40.62em;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(./Img/portada.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido-banner .Titulo-Principal{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contenido-banner .Sub-Titulo{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.contenido-banner .Boton-Registrarse{
+    background-color: #9f3647;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s, box-shasow 0.3s;
+}
+
+/*-------------------Buscador-----------------*/
+
+
+/*-------------------Tendencias----------------*/
+
+.contenido-Tendencias{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Peli-Img{
+    width: 150px;
+
+}
+
+.PopularList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*--------------------Registro----------------*/
+
+.header .header{
+    background-color: aqua;
+}
+.Registro{
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(/Img/modelo-del-cine-fondo-inconsútil-con-símbolos-de-la-producción-y-las-películas-128284149.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

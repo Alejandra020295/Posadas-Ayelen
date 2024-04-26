@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Img/icon.ico" type="image/x-icon">
+    <title>FILMA-FEST</title>
+</head>
+<body class="Registro">
+    <header>
+        <a href="index.html" class="logo">
+            <img src="/Img/icon.png" alt="logo paguina">
+            <h2 class="nombre pagina">Filma-Fest</h2>
+        </a>
+
+    </header>
+
+    <h1>Registro</h1>
+
+    <section>
+    <form action="" id="Form_Registro" method="get">
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre" maxlength="15">
+        </div>
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" id="Apellido" maxlength="15">
+        </div>
+        <div>
+            <label for="Email-txt">Email:</label>
+            <input type="email" name="Email-txt" id="Email-txt" maxlength="15">
+        </div>
+        <div>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" name="password" id="password" maxlength="15">
+        </div>
+        <div>
+            <label for="Fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="Fecha" id="Fecha" maxlength="15">
+        </div>
+        <div>
+            <label for="País">País:</label>
+            <select name="País" id="País">
+                <option value="">Seleccione</option>
+                <option value="AR">Argentina</option>
+                <option value="BOL">Bolivia</option>
+                <option value="BRA">Brasil</option>
+                <option value="CHI">Chile</option>
+                <option value="COL">Colombia</option>
+                <option value="CUB">Cuba</option>
+                <option value="ECU">Ecuador</option>
+                <option value="OT">Otro</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Registrarse">
+    </form>
+
+    </section>
+
+    <footer>
+        <a href="">Términos y condiciones</a>
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Ayuda</a>
+        <a href="">Administrador Peliculas</a>
+    </footer>
+</body>
+</html>
